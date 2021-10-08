@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{4c0f0306-2c4f-406f-b1d3-1b829eeeec18}</ProjectGuid>
+    <ProjectGuid>{8B03B0D9-EBE5-43D3-9A3D-5BB28A0D51B5}</ProjectGuid>
     <RootNamespace>Game2001Week1</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -139,8 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="MemoryAccess.cpp" />
-    <ClCompile Include="TemplateExample.cpp" />
+    <ClInclude Include="..\Week 2\OrderedArray.h" />
+    <ClInclude Include="..\Week 2\UnorderedArray.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Week 2\Driver.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
